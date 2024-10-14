@@ -1,1 +1,1 @@
-"# Bd-Architects-C223051" 
+# Bd-Architects-C223051
