@@ -15,6 +15,13 @@ a {
     text-transform: capitalize;
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    /* line-height: 53px; */
+    color: #131313;
+}
+
 img {
     width: 100%;
     /* object-fit: contain; */
@@ -34,4 +41,35 @@ p {
     min-width: 350px;
     width: 90%;
     margin: 0 auto;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+    padding-top: 50px;
+}
+
+header nav.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    /* line-height: 26px; */
+    /* text-align: center; */
+    color: #424242;
+}
+
+li a:hover {
+    color: #ff900e;
 }
